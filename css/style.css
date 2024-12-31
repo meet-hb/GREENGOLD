@@ -209,6 +209,12 @@
     background: var(--bs-primary);
     color: var(--bs-white);
 }
+@media (max-width: 1399px) {
+    .d-xl-flex{
+        display: none !important;
+    }
+}
+
 
 @media (min-width: 992px) {
     .navbar {
